@@ -13,7 +13,8 @@ still part of the public interface.
 
 ## Showcase gallery
 
-These are captures of the bundled 2D example at 1280 × 720.
+These are captures of the bundled 2D example at 1280 × 720. The repository
+also includes a 3D example, a sandbox built on the Robot 64 Engine place.
 
 | 2D showcase | UI editor |
 | --- | --- |
@@ -51,10 +52,9 @@ cd wave-engine
 ```
 
 Run `love .` from the repository root. [conf.lua](conf.lua) selects the
-project to start; the repository ships with `showcase2d`.
+project to start; the repository ships with `showcase2d` selected.
 
-No Lua package installation, Roblox account or downloaded asset pack is
-needed. On Windows, if LÖVE is not on your PATH, use PowerShell:
+No Lua package installation, Roblox account or extra download is needed. On Windows, if LÖVE is not on your PATH, use PowerShell:
 
 ```powershell
 & 'C:\Program Files\LOVE\love.exe' .
@@ -69,6 +69,17 @@ For the typography examples or editor, change the
 `demo` literal in [projects/showcase2d/config.lua](projects/showcase2d/config.lua)
 to `"fonts"`, `"markup"` or `"editor"`, then restart. Set it back to `"game"`
 for the shooter.
+
+For the Robot 64 sandbox, change the first setting in [conf.lua](conf.lua):
+
+```lua
+local selected_project = "showcase3d"
+```
+
+Move with WASD or the left stick, jump with Space or A, rotate the camera
+with the right stick or by holding the right mouse button, and zoom with the
+wheel. R respawns; Escape pauses. The scene and its credits are in
+[projects/showcase3d/robot64](projects/showcase3d/robot64/NOTICE.md).
 
 Windows with LÖVE 11.5 is tested. Linux, macOS, mobile builds and other LÖVE
 versions are not verified for this release. Touch support exists, but this
@@ -385,7 +396,8 @@ application's responsibility.
 
 The RBX stack loads only when requested. Ordinary 2D startup does not
 initialize it. The renderer, physical materials and reusable character and
-follow-camera controllers can be used on their own.
+follow-camera controllers can be used on their own; `showcase3d` shows them
+together with a full place file.
 
 Inside your project's `start` callback:
 

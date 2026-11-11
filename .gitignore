@@ -21,5 +21,5 @@ compiled_scene_cache/
 
 # Optional local content kept out of the repository
 /projects/*/assets/audio/
-/projects/*/assets/splash/
+/projects/showcase2d/assets/splash/
 /engine/assets/fonts/NotoSansJP-Regular.otf

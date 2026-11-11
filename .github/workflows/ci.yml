@@ -38,3 +38,9 @@ jobs:
             sed -i "s/^local demo = \".*\"/local demo = \"$demo\"/" projects/showcase2d/config.lua
             WAVE_SMOKE_FRAMES=120 xvfb-run -a -s "-screen 0 1280x720x24" love .
           done
+          git checkout projects/showcase2d/config.lua
+
+      - name: Robot 64 showcase smoke test
+        run: |
+          sed -i 's/^local selected_project = ".*"/local selected_project = "showcase3d"/' conf.lua
+          WAVE_SMOKE_FRAMES=120 xvfb-run -a -s "-screen 0 1280x720x24" love .

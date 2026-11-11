@@ -1,0 +1,156 @@
+{
+  "description": "Locally collected Beebo/Robot 64 character resources. Exact bytes from existing repository assets; no download or format conversion.",
+  "credits": "Original Robot 64 assets by zKevin.",
+  "files": [
+    {
+      "path": "meshes/torso.mesh",
+      "kind": "mesh",
+      "purpose": "torso",
+      "asset_id": "1218977827",
+      "bytes": 9569,
+      "sha256": "ff0b7495827976f5a2e48feb212b20d480ddc6ff7f2e898bfab35d80355d60cf",
+      "decoded_vertices": 396,
+      "original_source_path": "assets/rbx/asset/1218977827.mesh",
+      "source_path": "../../asset/1218977827.mesh"
+    },
+    {
+      "path": "meshes/head.mesh",
+      "kind": "mesh",
+      "purpose": "head",
+      "asset_id": "1451153549",
+      "bytes": 3561,
+      "sha256": "2cef242b0ef0f0bd1146bf5bf27f94ad8c88e5732ad3959c956e0a51c1830370",
+      "decoded_vertices": 324,
+      "original_source_path": "assets/rbx/asset/1451153549.mesh",
+      "source_path": "../../asset/1451153549.mesh"
+    },
+    {
+      "path": "meshes/upper-arm.mesh",
+      "kind": "mesh",
+      "purpose": "armA, armB",
+      "asset_id": "1218978596",
+      "bytes": 4433,
+      "sha256": "e2cc0fe7a072f9c53db4b965d1c54cff4044b91ec48ac39843ce9217dffcb56f",
+      "decoded_vertices": 192,
+      "original_source_path": "assets/rbx/asset/1218978596.mesh",
+      "source_path": "../../asset/1218978596.mesh"
+    },
+    {
+      "path": "meshes/lower-arm.mesh",
+      "kind": "mesh",
+      "purpose": "armC, armD",
+      "asset_id": "1218979090",
+      "bytes": 7657,
+      "sha256": "3e8474ce5fca98b8f44acd611ce5f95c7abe489e409f32efb679433018e32d31",
+      "decoded_vertices": 288,
+      "original_source_path": "assets/rbx/asset/1218979090.mesh",
+      "source_path": "../../asset/1218979090.mesh"
+    },
+    {
+      "path": "meshes/leg.mesh",
+      "kind": "mesh",
+      "purpose": "legA, legB",
+      "asset_id": "1218978239",
+      "bytes": 7457,
+      "sha256": "8f484e0c21e55de746f7da1a2c0d6807e6e6b3510ef12755fd5a22fa02efe1b0",
+      "decoded_vertices": 288,
+      "original_source_path": "assets/rbx/asset/1218978239.mesh",
+      "source_path": "../../asset/1218978239.mesh"
+    },
+    {
+      "path": "meshes/antenna-tip.mesh",
+      "kind": "mesh",
+      "purpose": "dot",
+      "asset_id": "1101816611",
+      "bytes": 1345,
+      "sha256": "5ac20ce98e9e5a9d95ef8563bf090cc6c4a5f4d4a7d4ae66e0b390fe7f639c10",
+      "decoded_vertices": 30,
+      "original_source_path": "assets/rbx/asset/1101816611.mesh",
+      "source_path": "../../asset/1101816611.mesh"
+    },
+    {
+      "path": "meshes/backpack.mesh",
+      "kind": "mesh",
+      "purpose": "pack",
+      "asset_id": "1372212075",
+      "bytes": 3561,
+      "sha256": "09d4104a188450b39031d45ea5958a2a31488b24c5bde7dbc14c7c9b6045f27b",
+      "decoded_vertices": 204,
+      "original_source_path": "assets/rbx/asset/1372212075.mesh",
+      "source_path": "../../asset/1372212075.mesh"
+    },
+    {
+      "path": "meshes/battery.mesh",
+      "kind": "mesh",
+      "purpose": "bt1, bt2, bt3, bt4",
+      "asset_id": "1103633121",
+      "bytes": 12169,
+      "sha256": "e8c180f54bcda59491824336b818691c5451e84389bb6b166838175a562df297",
+      "decoded_vertices": 276,
+      "original_source_path": "assets/rbx/asset/1103633121.mesh",
+      "source_path": "../../asset/1103633121.mesh"
+    },
+    {
+      "path": "textures/body.png",
+      "kind": "texture",
+      "purpose": "body and backpack",
+      "asset_id": "1218977833",
+      "bytes": 2262,
+      "sha256": "2bcf8d5cc41bc5ab68bd68bf166dc3f03babd5268fd38d2239de0fa39a224c3a",
+      "original_source_path": "assets/rbx/asset/1218977833.mesh",
+      "source_path": "../../asset/1218977833.png"
+    },
+    {
+      "path": "textures/battery.png",
+      "kind": "texture",
+      "purpose": "batteries",
+      "asset_id": "1129642240",
+      "bytes": 4651,
+      "sha256": "88076840dca8d76d62cc1cc7c4e7d77f468e9c4e599c57fd5894634c91c1d4a7",
+      "original_source_path": "assets/rbx/asset/1129642240.mesh",
+      "source_path": "../../asset/1129642240.png"
+    },
+    {
+      "path": "textures/face-normal.png",
+      "kind": "texture",
+      "purpose": "ordinary face",
+      "asset_id": "1451094768",
+      "bytes": 1064,
+      "sha256": "161461761994947f405c68a7c63e59e8310df8f5b2b345e92ca53cfd7ffbfc4e",
+      "original_source_path": "assets/rbx/asset/1451094768.png",
+      "source_path": "../../asset/1451094768.png"
+    },
+    {
+      "path": "textures/face-half-blink.png",
+      "kind": "texture",
+      "purpose": "half blink",
+      "asset_id": "1451125125",
+      "bytes": 1102,
+      "sha256": "f23a689b6eb6f7013d6026e60a2308df4dd4935bddedbb407fa7b25a9c59a080",
+      "original_source_path": "assets/rbx/asset/1451125125.png",
+      "source_path": "../../asset/1451125125.png"
+    },
+    {
+      "path": "textures/face-closed.png",
+      "kind": "texture",
+      "purpose": "closed blink",
+      "asset_id": "1451125369",
+      "bytes": 805,
+      "sha256": "f4d38d962a05d045cd1b2c7fb469602dbd51a7bbb5f77a09fdde0fa94441ab2e",
+      "original_source_path": "assets/rbx/asset/1451125369.png",
+      "source_path": "../../asset/1451125369.png"
+    },
+    {
+      "path": "textures/face-smile.png",
+      "kind": "texture",
+      "purpose": "supplied template smile",
+      "asset_id": "1451124286",
+      "bytes": 1094,
+      "sha256": "c3c1507173be23833b01a1ac2a81714a5936bd3604442392523a36e854fb8865",
+      "original_source_path": "assets/rbx/asset/1451124286.png",
+      "source_path": "../../asset/1451124286.png"
+    }
+  ],
+  "map": "assets/rbx/maps/Robot-64-Engine.rbxl",
+  "consumer": "program/project/robot/character_rig.lua"
+}

@@ -34,5 +34,14 @@ files listed, either as a separate file or in the source header.
 | --- | --- | --- | --- |
 | [Input Prompts](https://kenney.nl/assets/input-prompts) | Kenney | CC0 1.0 | `engine/assets/img/inputsprites/` |
 
+## Showcase 3D
+
+| Content | Author | Location |
+| --- | --- | --- |
+| Robot 64 and the Robot 64 Engine place, its meshes, textures, sounds, interface and character rig; Lua ported from its scripts | zKevin | `projects/showcase3d/robot64/` |
+| Material, stud surface and built-in mesh textures | Roblox | `projects/showcase3d/robot64/assets/rbx/` |
+
+See [projects/showcase3d/robot64/NOTICE.md](projects/showcase3d/robot64/NOTICE.md).
+
 LÖVE and LuaJIT are not included in this repository. When you distribute a
 fused executable, include LÖVE's `license.txt` as well.
