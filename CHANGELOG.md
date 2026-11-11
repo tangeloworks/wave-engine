@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.0 - 2026-11-11
 
 First public version, for LÖVE 11.5.
 
