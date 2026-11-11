@@ -18,7 +18,7 @@ jobs:
       ALSOFT_DRIVERS: "null"
       SDL_AUDIODRIVER: dummy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Install LÖVE 11.5
         run: |
