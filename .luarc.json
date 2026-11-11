@@ -1,0 +1,17 @@
+{
+  "runtime": {
+    "version": "LuaJIT",
+    "path": ["?.lua", "?/init.lua"],
+    "pathStrict": true
+  },
+  "workspace": {
+    "checkThirdParty": false
+  },
+  "diagnostics": {
+    "globals": [
+      "love", "G", "Program", "Pipeline", "CFG", "Object", "vec2",
+      "Element", "Image", "Text", "Particle", "AllElements", "input_mgr",
+      "audio", "timers", "tween", "MenuNavig", "platform"
+    ]
+  }
+}

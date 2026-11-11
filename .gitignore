@@ -1,0 +1,25 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__MACOSX/
+._*
+__pycache__/
+*.pyc
+
+# Build output and LÖVE save data written by local runs
+*.love
+dist/
+settings.cfg
+input_bindings.cfg
+game_data.dat
+profile.dat
+collision_cache/
+compiled_scene_cache/
+*.log
+
+# Optional local content kept out of the repository
+/projects/*/assets/audio/
+/projects/*/assets/splash/
+/engine/assets/fonts/NotoSansJP-Regular.otf

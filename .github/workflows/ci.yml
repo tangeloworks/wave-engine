@@ -1,0 +1,40 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      # no sound card on the runner
+      ALSOFT_DRIVERS: "null"
+      SDL_AUDIODRIVER: dummy
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install LÖVE 11.5
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends love xvfb xauth libgl1-mesa-dri
+          love --version
+
+      - name: Regression suites (headless)
+        run: RBX_TEST=1 love .
+
+      - name: Regression suites (graphics)
+        run: RBX_TEST=graphics xvfb-run -a -s "-screen 0 1280x720x24" love .
+
+      - name: Showcase smoke test
+        run: |
+          for demo in game fonts markup editor; do
+            sed -i "s/^local demo = \".*\"/local demo = \"$demo\"/" projects/showcase2d/config.lua
+            WAVE_SMOKE_FRAMES=120 xvfb-run -a -s "-screen 0 1280x720x24" love .
+          done
